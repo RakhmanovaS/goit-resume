@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Resume</title>
 </head>
 <body>
     <!--Main-->
-    <div>
+    <div class="main">
         <!--main content-->
-        <div>
+        <div class="main-content">
             <!--about user-->
-            <div>
+            <div class="about">
                <h2>Front-End Developer</h2> 
                <h1>Svitlana Rakhmanova</h1> 
                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </P>
             
         </div>
         <!--projects-->
-        <div>
-           <h3>Projects</h3> 
+        <div class="projects">
+           <h3 class="project-title">
+            Projects</h3> 
            <ol>
             <li>
                 <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
@@ -38,11 +43,11 @@
            </ol>
         </div>
         <!--work-->
-        <div>
+        <div class="work">
             <h3>Work Experience</h3>
             <!--company1-->
             <div>
-                <h4>Front-End Developer Freelance </h4>
+                <h4>Front-End Developer <span class="colortext">Freelance </span></h4>
                 <p>September 2019 - up to now   |   Country </p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
@@ -53,7 +58,8 @@
             </div>
             <!--company2-->
             <div>
-                <h4>Manager Roga & Kopyta New </h4>
+                <h4>Manager
+                    <span class="colortext"> Roga & Kopyta New </span></h4>
                 <p>March 2015 - October 2018   |   Country </p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.  </li>
@@ -63,7 +69,8 @@
             </div>
             <!--company3-->
             <div>
-                <h4>Manager Roga & Kopyta LLC </h4>
+                <h4>Manager 
+                    <span class="colortext">Roga & Kopyta LLC</span>  </h4>
                 <p>June 2014 - February 2015   |   Country </p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
@@ -74,7 +81,7 @@
 
         </div>
         <!--education-->
-        <div>
+        <div class="education">
             <h3>Education</h3>
             National University of Radioelectronics
             Management
@@ -82,8 +89,9 @@
         </div>
 
         <!--sidebar-->
-        <aside>
-           <img src="img/photo_2022-08-25_10-19-57.jpg" alt="user photo">
+        <aside class="sidebar">
+           <img src="img/photo_2022-08-25_10-19-57.jpg" alt="user photo" class="img-style" >
+
            <!--contacts-->
            <div>
             <h3>Contacts</h3>
@@ -100,7 +108,7 @@
            <!--tech skills-->
            <div>
             <h3>Tech Skills</h3>
-            <ul>
+            <ul class="color-skills">
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>GIT</li>
@@ -110,11 +118,10 @@
                 <li>Node.js</li>
             </ul>
             </div>
-           </div>
            <!--soft skills-->
            <div>
             <h3>Soft Skills</h3>
-            <ul>
+            <ul class="color-skills">
                 <li>Scrum</li>
                 <li>Agile</li>
                 <li>GTD</li>
